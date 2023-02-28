@@ -1,5 +1,4 @@
-## 电报Telegram红包扫雷机器人部署说明
-## 该套代码为java代码，后台代码使用的是VUE。以下为部署服务器流程
+# 电报Telegram红包扫雷机器人部署说明：该套代码为java代码，后台代码使用的是VUE。以下为部署服务器流程
 
 ### 1.选择ubuntu系统 版本无所谓
 
@@ -17,29 +16,19 @@
 ### 4.启动机器人：
 
       进入到运行包目录使用 nohub java -jar xxx.jar & 就启动了 
-
-
+      
 ### 5.查看启动日志 
 
       使用 tail -f nohub.log 
       看是否启动成功,如果启动成功，则退出查看日志界面使用命令 control + c 就可以退出。
 
-
-### 6.如果需要更换机器人。需要把之前的启动进程杀掉 
-
-
-### 7.查看启动进程 ps -ef | grep java 
-<img width="565" alt="image" src="https://user-images.githubusercontent.com/124488076/219601217-3821bfe2-cd2c-476c-bd8c-55864a9cc648.png">
-
-
-### 8.在数据库中config表里吗更改机器人名字 跟token
-<img width="1001" alt="image" src="https://user-images.githubusercontent.com/124488076/219601887-294c3cb0-04bf-4d78-884f-0f0950b3f4bd.png">
-
-
-### 9.然后重新启动机器人即可
-
-
-
+### 6.更换机器人
+      如果需要更换机器人。需要把之前的启动进程杀掉
+      <img width="565" alt="image" src="https://user-images.githubusercontent.com/124488076/219601217-3821bfe2-cd2c-476c-bd8c-55864a9cc648.png">
+      1.使用查看启动进程命令： ps -ef | grep java 
+      <img width="1001" alt="image" src="https://user-images.githubusercontent.com/124488076/219601887-294c3cb0-04bf-4d78-884f-0f0950b3f4bd.png">
+      2.在数据库中config表里吗更改机器人名字 跟token
+      3.然后重新启动机器人即可，进入到运行包目录使用 nohub java -jar xxx.jar & 就启动了 
 
 
 # 机器人玩法说明：
