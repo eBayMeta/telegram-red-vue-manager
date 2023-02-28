@@ -24,9 +24,9 @@
 
 ### 6.更换机器人
       如果需要更换机器人。需要把之前的启动进程杀掉
-      <img width="565" alt="image" src="https://user-images.githubusercontent.com/124488076/219601217-3821bfe2-cd2c-476c-bd8c-55864a9cc648.png">
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/124488076/219601217-3821bfe2-cd2c-476c-bd8c-55864a9cc648.png">
       1.使用查看启动进程命令： ps -ef | grep java 
-      <img width="1001" alt="image" src="https://user-images.githubusercontent.com/124488076/219601887-294c3cb0-04bf-4d78-884f-0f0950b3f4bd.png">
+<img width="1001" alt="image" src="https://user-images.githubusercontent.com/124488076/219601887-294c3cb0-04bf-4d78-884f-0f0950b3f4bd.png">
       2.在数据库中config表里吗更改机器人名字 跟token
       3.然后重新启动机器人即可，进入到运行包目录使用 nohub java -jar xxx.jar & 就启动了 
 
