@@ -5,19 +5,19 @@
 1.选择ubuntu系统 版本无所谓
 
 2.安装java环境 
-
       sudo apt update
-
       sudo apt install openjdk-11-jdk
-
       java -version
   
 3.安装redis
-  sudo apt install redis-server
+      sudo apt install redis-server
   
-4.启动机器人：进入到运行包目录 nohub java -jar xxx.jar & 就启动了 
+4.启动机器人：
+      进入到运行包目录使用 nohub java -jar xxx.jar & 就启动了 
 
-5.查看启动日志 tail -f 看是否启动成功 启动成功 退出日志查看 control + c 就可以退出
+5.查看启动日志 
+      使用 tail -f nohub.log 
+      看是否启动成功,如果启动成功，则退出查看日志界面使用命令 control + c 就可以退出。
 
 6.如果需要更换机器人。需要把之前的启动进程杀掉 
 
