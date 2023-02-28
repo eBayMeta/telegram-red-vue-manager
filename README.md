@@ -5,9 +5,12 @@
 1.选择ubuntu系统 版本无所谓
 
 2.安装java环境 
-  sudo apt update
-  sudo apt install openjdk-11-jdk
-  java -version
+
+      sudo apt update
+
+      sudo apt install openjdk-11-jdk
+
+      java -version
   
 3.安装redis
   sudo apt install redis-server
