@@ -1,5 +1,21 @@
 # 电报Telegram红包扫雷机器人部署说明：该套代码为java代码，后台代码使用的是VUE。以下为部署服务器流程
 
+🔥 媒体关注🔥
+
+电报频道  : https://t.me/yishellmeta 
+
+电报客服  : https://t.me/PacService 
+
+电报客服  : https://t.me/eBayService 
+
+电报群组  : https://t.me/eBayMetaDev  
+
+推特频道  : https://twitter.com/eBayMeta 
+
+源码频道  : https://github.com/eBayMeta 
+
+油管频道  : https://www.youtube.com/@eBayMeta
+
 ### 1.服务器系统选择
       最好选用 ubuntu 系统，版本无所谓。
 
